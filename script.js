@@ -13,7 +13,6 @@ function showMessage(text, isError = false) {
 }
 
 function caesarCipher(text, shift) {
-    // Приводим сдвиг к целому числу
     shift = parseInt(shift, 10);
     if (isNaN(shift)) shift = 0;
     
